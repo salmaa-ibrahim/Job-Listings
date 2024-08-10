@@ -18,7 +18,7 @@ function Content(){
     const arrayOfJobs=[
         {
             key: 1,
-            Img:"./src/assets/images/photosnap.svg",
+            Img:"../../../public/images/photosnap.svg",
             companyName: "Photoshot",
             new: true,
             featured: true,
@@ -31,7 +31,7 @@ function Content(){
 
         {
             key: 2,
-            Img:"./src/assets/images/manage.svg",
+            Img:"../../../public/images/manage.svg",
             companyName: "Manage ",
             new: true,
             featured: true,
@@ -45,7 +45,7 @@ function Content(){
         {
             key: 3,
             new: true,
-            Img:"./src/assets/images/account.svg",
+            Img:"../../../public/images/account.svg",
             companyName: "Account ",
             jobTitle: " Junior Frontend Developer",
             duration: "2d ago",
@@ -56,7 +56,7 @@ function Content(){
 
         {
             key: 4,
-            Img:"./src/assets/images/myhome.svg",
+            Img:"../../../public/images/myhome.svg",
             companyName: "My Home ",
             jobTitle: " Junior Frontend Developer",
             duration: "5d ago",
@@ -67,7 +67,7 @@ function Content(){
 
         {
             key: 5,
-            Img:"./src/assets/images/loop-studios.svg",
+            Img:"../../../public/images/loop-studios.svg",
             companyName: "Loop Studios ",
             jobTitle: "Software Engineer",
             duration: "1w ago",
@@ -77,7 +77,7 @@ function Content(){
         },
         {
         ke: 6,
-        Img:"./src/assets/images/faceit.svg",
+        Img:"../../../public/images/faceit.svg",
         companyName: "FaceIt  ",
         jobTitle: "Junior Backend Developer",
         duration: "2w ago",
