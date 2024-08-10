@@ -18,7 +18,7 @@ function Content(){
     const arrayOfJobs=[
         {
             key: 1,
-            Img:"./src/assets/images/photosnap.svg",
+            Img:"../../../public/assets/images/photosnap.svg",
             companyName: "Photoshot",
             new: true,
             featured: true,
