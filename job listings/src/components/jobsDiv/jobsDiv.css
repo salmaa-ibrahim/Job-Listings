@@ -173,7 +173,7 @@ hr{
 
 @media only screen and (max-width: 770px) {
     .jobsDiv{
-        height: 250px;
+        height: 270px;
         flex-direction: column;
         padding: 0;
         align-items: unset;

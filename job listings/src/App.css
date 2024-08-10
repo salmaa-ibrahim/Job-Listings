@@ -11,6 +11,6 @@ nav{
 @media only screen and (max-width: 375px) {
     nav{
 
-        background-image: url(./assets/images/bg-header-mobile.svg);
+        background-image: url(../public/images/bg-header-mobile.svg);
     }
 }
