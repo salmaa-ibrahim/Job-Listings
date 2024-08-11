@@ -22,7 +22,7 @@ function JobsDiv(prop){
                     <div className="txtThree">
                         <p>{prop.duration}</p>
                         <div className="dot"></div>
-                        <p>{prop.time}e</p>
+                        <p>{prop.time}</p>
                         <div className="dot"></div>
                         <p>{prop.describe}</p>
                     </div>
@@ -30,10 +30,6 @@ function JobsDiv(prop){
             </div>
             <hr className='line'/>
             <div className='btns'>
-                {/* {ArrayOfBtns.map((name)=>{
-                    return <><button>{name}</button></>
-                })} */}
-
                 {
                     ArrayOfBtns.map((item)=>{
                         return(

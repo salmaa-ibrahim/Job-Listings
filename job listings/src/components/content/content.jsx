@@ -18,7 +18,7 @@ function Content(){
     const arrayOfJobs=[
         {
             key: 1,
-            Img:"../../../public/images/photosnap.svg",
+            Img:"../public/images/photosnap.svg",
             companyName: "Photoshot",
             new: true,
             featured: true,
@@ -31,7 +31,7 @@ function Content(){
 
         {
             key: 2,
-            Img:"../../../public/images/manage.svg",
+            Img:"../public/images/manage.svg",
             companyName: "Manage ",
             new: true,
             featured: true,
@@ -45,7 +45,7 @@ function Content(){
         {
             key: 3,
             new: true,
-            Img:"../../../public/images/account.svg",
+            Img:"../public/images/account.svg",
             companyName: "Account ",
             jobTitle: " Junior Frontend Developer",
             duration: "2d ago",
@@ -56,18 +56,18 @@ function Content(){
 
         {
             key: 4,
-            Img:"../../../public/images/myhome.svg",
+            Img:"../public/images/myhome.svg",
             companyName: "My Home ",
             jobTitle: " Junior Frontend Developer",
             duration: "5d ago",
-            tim: " Contract",
+            time: " Contract",
             describe: " USA only ",
             tools:["Frontend" , "Jonior","React" , "Sass" ,"JavaScript"],
         },
 
         {
             key: 5,
-            Img:"../../../public/images/loop-studios.svg",
+            Img:"../public/images/loop-studios.svg",
             companyName: "Loop Studios ",
             jobTitle: "Software Engineer",
             duration: "1w ago",
@@ -76,8 +76,8 @@ function Content(){
             tools:["Fullstack","Midweight","JavaScript" , "Sass" ,"Ruby"]
         },
         {
-        ke: 6,
-        Img:"../../../public/images/faceit.svg",
+        key: 6,
+        Img:"../public/images/faceit.svg",
         companyName: "FaceIt  ",
         jobTitle: "Junior Backend Developer",
         duration: "2w ago",

@@ -119,60 +119,9 @@ hr{
 
 
 
-
-@media only screen and (max-width: 375px) {
-    .jobsDiv{
-        height: 250px;
-        flex-direction: column;
-        padding: 0;
-        align-items: unset;
-        row-gap: 30px;
-        padding: 20px;
-        position: relative;
-    }
-
-    .leftDiv{
-        width: 100%;
-        height: auto;
-        flex-direction: column;
-        row-gap: 10px;
-        align-items: start;
-        position: absolute;
-        top: -30px;
-    }
-
-    img{
-        width: 70px;
-    }
-
-    .details{
-        width: 100%;
-        height:auto;
-        align-items: center;
-        row-gap: 12px;
-    }
-
-    hr{
-        display: block;
-        position: relative;
-        top: 136px;
-    }
-
-    .btns{
-        width: 70%;
-        position: absolute;
-        top: 180px;
-        flex-wrap: wrap;
-        align-items: start;
-        justify-content: left;
-        row-gap: 10px;
-    }
-}
-
-
-
 @media only screen and (max-width: 770px) {
     .jobsDiv{
+        width: 90%;
         height: 270px;
         flex-direction: column;
         padding: 0;
@@ -220,3 +169,15 @@ hr{
     }
 }
 
+@media only screen and (max-width: 376px) {
+    .jobsDiv{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    .jobsDiv{
+        width: 90%;
+        height: 290px;
+    }
+}
